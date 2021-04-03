@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <header id="mainHeader" class="basic-edit">
+        <h1>
+            ToDO List
+        </h1>
+        <h3>
+            A smart way to list your Goals..
+        </h3>
+    </header>
+    <article id="contentBox" class="br-5 basic-edit">
+        <section id="search" class="br-5">
+            <input class="typeArea br-5" placeholder="Search" type="search" name="search" id="searchingToDo">
+        </section>
+        <section >
+            <ul id="contain">
+                
+              <!-- this area will be filled by Js -->
+            </ul>
+        </section>
+        <form class="toDoEntry">
+        
+            <input type="text" placeholder="add more ToDo's" name="toDos" id="inputToDo" class="typeArea br-5 basic-edit">
+            <p></p><input id="submit" class="br-5" type="submit" value="Add">
+        </form>
+        
+    </article>
+    <script src="./js/script.js"></script>
+</body>
+</html>
